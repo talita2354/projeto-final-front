@@ -1,0 +1,80 @@
+:root{
+    --fundo-1:rgb(27, 27, 27);
+    --fundo-2:rgb(41, 41, 41);
+    --fundo-3:rgb(109, 107, 107) ;
+    --fundo-4:rgba(82, 26, 0, 0.689) ;
+    --fundo-5:rgba(63, 3, 3, 0.749) ;
+    --fundo-6:rgba(158, 93, 39, 0.844) ;
+    --fundo-7:rgba(193, 127, 73, 0.896) ;
+    --fundo-8:rgba(27, 27, 27, 0.562);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(../codigos/imagens/flores3\ editada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgb(0, 0, 0));
+  
+}
+
+
+header{
+    display: flex;
+}
+
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.logo{
+
+    width: 30rem;
+    height: auto;
+    display: flex;
+    font-family: "Dancing Script";
+    color: wheat;
+    margin-left: 3rem;
+
+}
+
+.link{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: var(--fundo-2);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.5s;
+    gap: 50%;
+    
+}
+
+.link:hover{
+    color: rgb(174, 163, 146);
+}
+
+.escrito{
+   text-align: center;
+    margin-top: 15rem;
+}
+
+.escrito h1{
+    font-family: "lora";
+    color: rgb(251, 251, 251);
+}
+
+.escrito h2{
+    font-family: "lora";
+    color: aliceblue;
+}
+
